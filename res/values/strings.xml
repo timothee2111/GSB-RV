@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">GSBRV</string>
+    <string name="text1">Matricule</string>
+    <string name="text2">Mot de passe</string>
+    <string name="text3">Menu RV</string>
+    <string name="text4">Recherche de fiche</string>
+    <string name="text5">Saisie de fiche</string>
+
+    <string name="edit1">Insérez le matricule</string>
+    <string name="edit2">Insérez le mot de passe</string>
+
+    <string name="annuler">Annuler</string>
+    <string name="valider">Valider</string>
+    <string name="saisir">Saisir</string>
+    <string name="consulter">Consulter</string>
+    <string name="retour">Retour</string>
+
+    <string name="month_prompt">Mois : </string>
+    <string name="year_prompt">Année : </string>
+</resources>

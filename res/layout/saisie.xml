@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".SaisieRvActivity">
+
+    <EditText
+        android:id="@+id/editTextDateVisite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date de visite (dd/mm/YYYY)"
+        android:layout_marginBottom="8dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/editTextPraticien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:hint="Praticien visité"/>
+
+    <EditText
+        android:id="@+id/editTextMotif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:hint="Motif"/>
+
+    <EditText
+        android:id="@+id/editTextBilan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:hint="Bilan"/>
+
+    <Spinner
+        android:id="@+id/coeffConf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Coefficient de confiance"/>
+
+    <Button
+        android:id="@+id/buttonEnregistrer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Enregistrer"/>
+
+</LinearLayout>
